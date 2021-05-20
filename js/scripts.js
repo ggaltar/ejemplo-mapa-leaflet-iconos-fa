@@ -13,10 +13,16 @@
 
 	// Marcadores
     // Ícono para ciudades
-    const iconoCiudad = L.divIcon({
-      html: '<i class="fas fa-city fa-2x"></i>',
+    //const iconoCiudad = L.divIcon({
+      //html: '<i class="fas fa-city fa-2x"></i>',
+      //className: 'estiloIconos'
+    //});
+	
+	const iconoCiudad = L.divIcon({
+      html: '<i class="fas fa-bicycle fa-3x""></i>',
       className: 'estiloIconos'
     });
+	
 
     liberia = L.marker([10.633333, -85.433333], {icon: iconoCiudad});
 	liberia.bindTooltip("Liberia").openTooltip();
